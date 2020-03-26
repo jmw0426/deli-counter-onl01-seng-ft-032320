@@ -8,7 +8,7 @@ def line(katz_deli)
   end
 end    
 
-def take_a_number(katz_deli, people)
+def take_a_number(katz_deli, name)
   line_size = []
     while katz_deli > 0 
     katz_deli.each_with_index{|people, index| line_size << "#{index + 1}. #{people}"}
