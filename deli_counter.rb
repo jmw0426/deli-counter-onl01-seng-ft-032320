@@ -11,7 +11,7 @@ end
 def take_a_number(katz_deli)
   line_size = []
     katz_deli.each_with_index{|people, index| line_size << "#{index + 1}. #{people}"}
-    puts "The line is currently: #{line_size.join(''}"
+    puts "The line is currently: #{line_size.join('')}"
     
   end
 end  
