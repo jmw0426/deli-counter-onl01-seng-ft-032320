@@ -18,8 +18,7 @@ def take_a_number(line_size, current_line)
   if katz_deli.length == 0 
     katz_deli.each_with_index do |name|
       current_line << "#{name}"
-  
-    end 
+    
   else 
     katz_deli.each_with_index do |name, index| 
     
