@@ -11,7 +11,7 @@ def line(katz_deli)
   end
 end    
   
-def take_a_number(katz_deli, current_line)
+def take_a_number(line_size, current_line)
   
   current_line = []
   
