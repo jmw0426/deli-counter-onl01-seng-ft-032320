@@ -17,14 +17,17 @@ def take_a_number(line_size, current_line)
   
   if katz_deli.length == 0 
     katz_deli.each_with_index do |name|
-      current_line.join << "#{name}"
+      current_line << "#{name}"
+      puts "#{name}"
     end
     
-  elsif katz_deli.length
+  elsif katz_deli.length > 0 
   katz_deli.each_with_index{|name, index|
-    current_line << "#{index + 1}. #{name}" }  
+    current_line << "#{index + 1}. #{name}"}  
     
     puts "Welcome, #{name}. You are number #{index + 1} in line."
+    
+  else  
     
   end
 end
