@@ -23,7 +23,7 @@ def take_a_number(line_size, katz_deli)
      
   else 
     
-    puts "The line is empty."
+    return "The line is empty."
   
    end
   end
