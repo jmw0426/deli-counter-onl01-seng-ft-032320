@@ -12,8 +12,11 @@ def line(katz_deli)
 end    
   
 def take_a_number()
-  i = katz_deli.length
-  if i > 0 
-    puts "Welcome, #{people}. You are number  in line."
+  
+  current_line = []
+  
+  katz_deli.each do |name, index + 1| 
+    
+     current_line << "Hello, my name is #{name}."
   
   
