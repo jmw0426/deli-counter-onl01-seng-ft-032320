@@ -26,7 +26,7 @@ def take_a_number(line_size, current_line)
     puts "Welcome, #{name}. You are number #{index + 1} in line."
   end
 end
-end
+
 
   
   
