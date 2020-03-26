@@ -14,6 +14,6 @@ end
 def take_a_number()
   i = katz_deli.length
   if i > 0 
-    puts 
+    puts "Welcome, #{people}. You are number  in line."
   
   
