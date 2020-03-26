@@ -20,9 +20,10 @@ def take_a_number(line_size, current_line)
       current_line << "#{name}"
     end
     
-  else katz_deli.each_with_index do |name, index| 
+  else katz_deli.each_with_index{|name, index|
+    current_line << "#{index + 1}. #{name}" }  
     
-     current_line << "Welcome, #{name}. You are number #{index + 1} in line."
+    puts "Welcome, #{name}. You are number #{index + 1} in line."
   end
 end
 end
