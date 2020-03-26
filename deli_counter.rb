@@ -2,13 +2,15 @@
 
 katz_deli = []
 
-def line 
-  
-  if katz_deli == 0
+def line(katz_deli) 
+  if katz_deli.length == 0
   puts "The line is currently empty."
   
-end
+  else 
+    line_size = []
+    katz_deli.each_with_index{|people, index| line_size << "#{index + 1}. #{people}"}
+    puts "The line is currently: #{line_size.join('')}"
+  end
+end    
 
-def take_a_number(array, people)
-  if katz_deli > 1 
-    array.each 
+def now_serving()
