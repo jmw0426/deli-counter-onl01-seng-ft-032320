@@ -15,8 +15,8 @@ def take_a_number()
   
   current_line = []
   
-  katz_deli.each do |name, index + 1| 
+  katz_deli.each do |name, index| 
     
-     current_line << "Hello, my name is #{name}."
+     current_line << "Welcome, #{name}. You are number {index + 1} in line."
   
   
