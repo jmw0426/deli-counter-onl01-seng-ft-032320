@@ -20,12 +20,12 @@ def take_a_number(katz_deli, current_line)
   katz_deli.each do |name, index| 
     
      current_line << "Welcome, #{name}. You are number #{index + 1} in line."
-     
+    end 
   else 
     
     return "The line is empty."
   
-   end
+   
   end
 end  
   
