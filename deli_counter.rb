@@ -12,3 +12,8 @@ def line(katz_deli)
 end    
   
 def take_a_number()
+  i = katz_deli.length
+  if i > 0 
+    puts 
+  
+  
